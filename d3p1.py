@@ -1,0 +1,27 @@
+#Dictionary methods
+#clear()
+student={"name":"John","age":20,"country":"USA"}
+student.clear()
+print(student)
+print(type(student))
+student1={20,30}
+print(type(student1))
+#cop()
+student={"name":"arvind","age":20}
+new_student=student.copy()
+print(new_student)
+print(type(student))
+print(type(new_student))
+#get()
+student={"name":"arvind","age":20}
+print(student.get("age",21))
+print(student.get("course","abc"))
+#items()
+student={"name":"arun","age":19}
+print(student.items())
+#keys()
+student={"name":"arun","age":19}
+print(student.keys())
+#values()
+student={"name":"arun","age":19}
+print(student.values())

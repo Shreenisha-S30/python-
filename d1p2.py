@@ -1,0 +1,11 @@
+#comparision  operators
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+print("a=",a)
+print("b=",b)
+print(f"{a} Equal to {b}:",a==b)
+print(f"{a} not equal to {b}:",a!=b)
+print(f"{a} greater than {b}:",a>b)
+print(f"{a} lesser than {b}:",a<b)
+print(f"{a} greater than or equal to {b}:",a>=b)
+print(f"{a} lesser than or equal to: {b}",a<=b)

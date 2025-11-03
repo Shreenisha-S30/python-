@@ -1,0 +1,8 @@
+name=input("Enter your name:")
+branch=input("Enter your branch name:")
+usn=input("Enter your USN: ")
+year=input("Enter the admin year:")
+print(name)
+print(branch)
+print(usn)
+print(year)
